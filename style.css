@@ -23,6 +23,8 @@ body {
     border: 1px solid #000;
     row-gap: 20px;
     align-items: center;
+    border-radius: 20px;
+
 }
 
 div.sidebar {
@@ -103,10 +105,21 @@ button {
     font-weight: bold;
     font-size: large;
     background-color: lightgrey;
+    border-radius: 20px;
+    row-gap: 5px;
+    column-gap: 5px;
 }
 .titoloCorpo{
     grid-column-start: 1;
     grid-column-end: 3;
     justify-self: start;
     padding-left: 20px;
+
+}
+.scheda {
+    background-color: aliceblue;
+    border-radius: 10px;
+    align-self: stretch;
+    justify-self: stretch;
+    justify-content: center;
 }
